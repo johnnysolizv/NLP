@@ -1,0 +1,11 @@
+POST http://localhost:8000/singleton HTTP/1.1
+content-type: application/json
+
+{ "message": "oiga lo que pasa es que no se le escuchaba nada y se corto" }
+
+###
+
+POST http://localhost:8000/singleton HTTP/1.1
+content-type: application/json
+
+{ "message": "sigo esperando" }
